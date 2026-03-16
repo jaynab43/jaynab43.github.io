@@ -31,7 +31,7 @@
     "Desc": "Designed and implemented an active bandpass filter to detect a 17 kHz infrared signal while rejecting nearby frequencies. The circuit used three cascaded Sallen–Key stages to create a sixth-order filter with high frequency selectivity. The design was first modeled and verified in LTspice and then built and tested on a breadboard using a frequency response analyzer to confirm the expected behavior. This project demonstrates practical analog filter design, circuit simulation, and hardware validation.",
     "GitHubRepo": "",
     "MainImage": "P1Main.png",
-    "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
+    "DetailImages": ["P1Detail1.jpeg","P1Detail2.jpeg","P1Detail3.png"]
   },
  "Project2": {
     "Title": "Power System Reliability and Interconnection Study",

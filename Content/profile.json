@@ -14,7 +14,7 @@
   "GitHub": "https://github.com/jaynab43"
 },
 "Experience": {
-  "ExperienceText": "Use this area to explain how you got to where you are and what you are currently doing now.<br><br>This is a good spot to talk yourself up.",
+  "ExperienceText": "Growing up in The Gambia, I witnessed firsthand how unreliable electricity and limited infrastructure affect households, businesses, and opportunities for development. Those experiences shaped my long-term goal of becoming an electrical engineer who can contribute to improving electrical infrastructure and expanding reliable access to energy in developing communities. I believe that through education, technical training, and collaboration with other engineers, I can help develop practical and sustainable electrical solutions that support long-term growth.",
   "School": "Seattle Pacific University",
   "Major": "Electrical Engineering",
   "Graduation": "June 2027",
@@ -23,7 +23,7 @@
   "Role": "IT Support Technician",
   "EmploymentText": "As an IT Support Technician at Seattle Pacific University, I assist students, faculty, and staff with troubleshooting technical issues related to computers, audiovisual systems, and classroom technology. This role requires a structured approach to diagnosing problems, identifying possible causes, and implementing effective solutions. I also maintain documentation through a ticketing system to track service requests and record troubleshooting steps. This experience has strengthened my problem-solving abilities, technical communication, and organizational skills while supporting the reliable operation of campus technology systems.",
   "Skills": [],
-  "SkillsText": "Through my academic coursework, engineering projects, and technical work experience, I have developed a range of practical engineering, analytical, and software skills that support electrical system analysis, troubleshooting, and technical documentation. <br> Technical Skills: 3-Phase Systems • Breadboard Design • Circuit Troubleshooting • Function Generator & Oscilloscope Operation • Soldering • Asset Data Organization <br> Computer Software / Tools: PSCAD • Excel • Jira • AutoCAD • Microsoft Office • Microsoft Entra • Multisim • MATLAB • QTSPIM • LTSpice • GitHub • CLion • Arduino IDE • Visio <br> Programming Languages: Python • C++ • MATLAB • Arduino • MIPS <br> These tools and skills allow me to analyze electrical systems, organize technical data, and collaborate effectively on engineering projects and technical troubleshooting tasks.",
+  "SkillsText": "Through my academic coursework, engineering projects, and technical work experience, I have developed a range of practical engineering, analytical, and software skills that support electrical system analysis, troubleshooting, and technical documentation. <br><br> Technical Skills: 3-Phase Systems • Breadboard Design • Circuit Troubleshooting • Function Generator & Oscilloscope Operation • Soldering • Asset Data Organization <br> Computer Software / Tools: PSCAD • Excel • Jira • AutoCAD • Microsoft Office • Microsoft Entra • Multisim • MATLAB • QTSPIM • LTSpice • GitHub • CLion • Arduino IDE • Visio <br><br> Programming Languages: Python • C++ • MATLAB • Arduino • MIPS <br><br> These tools and skills allow me to analyze electrical systems, organize technical data, and collaborate effectively on engineering projects and technical troubleshooting tasks.",
   "Resume": "student-resume.pdf"  
 },
 "Project1": {

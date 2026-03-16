@@ -33,12 +33,25 @@
     "MainImage": "P1Main.png",
     "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
   },
- 
-  "Project2": {
-    "Title": "Power System Reliability and Interconnection Study ",
+ "Project2": {
+    "Title": "Power System Reliability and Interconnection Study",
     "Desc": "This project simulated a real-world utility planning study for Seattle City Light to evaluate the potential grid impact of connecting a new large-scale industrial manufacturing facility. Steady-state load flow analysis was performed using PSCAD to model three-phase sources and examine how generator voltage magnitudes and phase angles influence active and reactive power exchange within the system. MATLAB scripts were developed to analyze and compare the numerical performance and convergence behavior of the Gauss–Seidel and Newton–Raphson algorithms for a three-bus transmission network. Comprehensive fault analysis, including three-phase, single-line-to-ground (SLG), and double-line-to-ground (DLG) faults, was conducted to determine fault current contributions and verify that equipment ratings remained within safe operating limits.",
-    "GitHubRepo": "",
+    "GitHubRepo": "https://github.com",
     "MainImage": "P2Main.png",
-    "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png"]
+    "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png","P2Detail4.png"]
+  },
+  "Project3": {
+    "Title": "Interesting Project 3",
+    "Desc": "This is a description of Project Three.<br><br>It does not have a GitHub repo or any additional screenshots.",
+    "GitHubRepo": "",
+    "MainImage": "P3Main.png",
+    "DetailImages": []
+  },
+  "Project4": {
+    "Title": "",
+    "Desc": "",
+    "GitHubRepo": "",
+    "MainImage": "",
+    "DetailImages": []
   }
 }

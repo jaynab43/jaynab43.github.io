@@ -13,74 +13,26 @@ let configData;
   })();
   
 function updateHTML(configData) {
-  let projectTitle;
-
   document.querySelector("#pfThumbnail").src = "Content/".concat(configData.About.Thumbnail);
   document.querySelector("#pfLinkedIn").href = configData.Contact.LinkedIn;
   document.querySelector("#pfGitHub").href = configData.Contact.GitHub;
   
-  projectTitle = configData.Project1.Title;
-  if (projectTitle) {
-    document.querySelector("#pfProject1Img").src = "Content/".concat(configData.Project1.MainImage);
-    document.querySelector("#pfProject1Title").innerHTML = projectTitle;
-    document.querySelector("#pfProject1Desc").innerHTML = configData.Project1.Desc;
-    document.querySelector("#pfProject1Repo").href = configData.Project1.GitHubRepo;
-    if (!configData.Project1.GitHubRepo) {
-      document.querySelector("#pfProject1Repo").style.display = "none";
+  for (let n = 1; n <= 5; n++) {
+    const proj = configData["Project" + n];
+    if (proj && proj.Title) {
+      document.querySelector("#pfProject" + n + "Img").src = "Content/".concat(proj.MainImage);
+      document.querySelector("#pfProject" + n + "Title").innerHTML = proj.Title;
+      document.querySelector("#pfProject" + n + "Desc").innerHTML = proj.Desc;
+      document.querySelector("#pfProject" + n + "Repo").href = proj.GitHubRepo;
+      if (!proj.GitHubRepo) {
+        document.querySelector("#pfProject" + n + "Repo").style.display = "none";
+      }
+      if (proj.DetailImages.length < 1) {
+        document.querySelector("#openProject" + n).style.display = "none";
+      }
+    } else {
+      document.querySelector("#project" + n).style.display = "none";
     }
-    if (configData.Project1.DetailImages.length<1) {
-      document.querySelector("#openProject1").style.display = "none";
-    }
-  } else {
-    document.querySelector("#project1").style.display = "none";
-  }
-  
-  projectTitle = configData.Project2.Title;
-  if (projectTitle) {
-    document.querySelector("#pfProject2Img").src = "Content/".concat(configData.Project2.MainImage);
-    document.querySelector("#pfProject2Title").innerHTML = projectTitle;
-    document.querySelector("#pfProject2Desc").innerHTML = configData.Project2.Desc;
-    document.querySelector("#pfProject2Repo").href = configData.Project2.GitHubRepo;
-    if (!configData.Project2.GitHubRepo) {
-      document.querySelector("#pfProject2Repo").style.display = "none";
-    }
-    if (configData.Project2.DetailImages.length<1) {
-      document.querySelector("#openProject2").style.display = "none";
-    }
-  } else {
-    document.querySelector("#project2").style.display = "none";
-  }
-
-  projectTitle = configData.Project3.Title;
-  if (projectTitle) {
-    document.querySelector("#pfProject3Img").src = "Content/".concat(configData.Project3.MainImage);
-    document.querySelector("#pfProject3Title").innerHTML = projectTitle;
-    document.querySelector("#pfProject3Desc").innerHTML = configData.Project3.Desc;
-    document.querySelector("#pfProject3Repo").href = configData.Project3.GitHubRepo;
-    if (!configData.Project3.GitHubRepo) {
-      document.querySelector("#pfProject3Repo").style.display = "none";
-    }
-    if (configData.Project3.DetailImages.length<1) {
-      document.querySelector("#openProject3").style.display = "none";
-    }
-  } else {
-    document.querySelector("#project3").style.display = "none";
-  }
-  
-  projectTitle = configData.Project4.Title;
-  if (projectTitle) {
-    document.querySelector("#pfProject4Img").src = "Content/".concat(configData.Project4.MainImage);
-    document.querySelector("#pfProject4Title").innerHTML = projectTitle;
-    document.querySelector("#pfProject4Desc").innerHTML = configData.Project4.Desc;
-    document.querySelector("#pfProject4Repo").href = configData.Project4.GitHubRepo;
-    if (!configData.Project4.GitHubRepo) {
-      document.querySelector("#pfProject4Repo").style.display = "none";
-    }
-    if (configData.Project4.DetailImages.length<1) {
-      document.querySelector("#openProject4").style.display = "none";
-    }
-  } else {
-    document.querySelector("#project4").style.display = "none";
   }
 }
 
@@ -123,22 +75,13 @@ function showImages(n) {
   slides[slideIdx - 1].style.display = "block";
 }
 
-document.querySelector("#openProject1").onclick = () => {
-  addImages(configData.Project1.DetailImages);
-  document.querySelector("#modalPage").style.display = "block";
-  showImages(slideIdx);
-}
-
-document.querySelector("#openProject2").onclick = () => {
-  addImages(configData.Project2.DetailImages);
-  document.querySelector("#modalPage").style.display = "block";
-  showImages(slideIdx);
-}
-
-document.querySelector("#openProject3").onclick = () => {
-  addImages(configData.Project3.DetailImages);
-  document.querySelector("#modalPage").style.display = "block";
-  showImages(slideIdx);
+for (let n = 1; n <= 5; n++) {
+  document.querySelector("#openProject" + n).onclick = () => {
+    addImages(configData["Project" + n].DetailImages);
+    document.querySelector("#modalPage").style.display = "block";
+    slideIdx = 1;
+    showImages(slideIdx);
+  }
 }
 
 document.querySelector("#XOut").onclick = () => {

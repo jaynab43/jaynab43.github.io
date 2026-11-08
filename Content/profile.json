@@ -1,57 +1,87 @@
 {
-"About": {
-  "Name": "Jainaba Jallow",
-  "Currently": "Electrical Engineering Student",
-  "Headshot": "IMG_5643.jpeg",
-  "Thumbnail": "electric-gear-logo-template-illustration-thunder-and-gear-logo-design-icon-free-vector.jpg",
-  "AboutText": "I am an Electrical Engineering student at Seattle Pacific University with a strong interest in power systems, electrical infrastructure, and applied engineering design. My academic work has focused on circuit analysis, electricity and magnetism, and power systems, where I have developed a solid foundation in three-phase systems and electrical system behavior. Beyond the classroom, I enjoy working on hands-on engineering projects, including my involvement in the BAJA SAE electronics team, where I collaborate with multidisciplinary teams to design and integrate sensor-based monitoring systems. I also have experience with engineering tools such as PSCAD, AutoCAD, and Excel for system analysis and technical documentation. My long-term goal is to contribute to improving electrical infrastructure and expanding reliable access to electricity in communities where energy systems are still developing."
-},
-"Contact": {
-  "EMail": "jallowj@spu.edu",
-  "Phone": "(206) 423-2890",
-  "Portfolio": "https://jaynab43.github.io/index.html",
-  "LinkedIn": "https://www.linkedin.com/in/jainaba-jallow/",
-  "GitHub": "https://github.com/jaynab43"
-},
-"Experience": {
-  "ExperienceText": "Growing up in The Gambia, I witnessed firsthand how unreliable electricity and limited infrastructure affect households, businesses, and opportunities for development. Those experiences shaped my long-term goal of becoming an electrical engineer who can contribute to improving electrical infrastructure and expanding reliable access to energy in developing communities. I believe that through education, technical training, and collaboration with other engineers, I can help develop practical and sustainable electrical solutions that support long-term growth.",
-  "School": "Seattle Pacific University",
-  "Major": "Electrical Engineering",
-  "Graduation": "June 2027",
-  "EducationText": "My studies focus on developing a strong foundation in electrical systems, circuit analysis, and power engineering. Through coursework in subjects such as circuit analysis, electricity and magnetism, logic systems, and power systems, I am building the analytical and technical skills required to understand and design complex electrical systems. The program emphasizes both theoretical knowledge and practical problem-solving, preparing me to contribute to real-world engineering challenges in energy and infrastructure systems.",
-  "Employment": "Seattle Pacific University",
-  "Role": "IT Support Technician",
-  "EmploymentText": "As an IT Support Technician at Seattle Pacific University, I assist students, faculty, and staff with troubleshooting technical issues related to computers, audiovisual systems, and classroom technology. This role requires a structured approach to diagnosing problems, identifying possible causes, and implementing effective solutions. I also maintain documentation through a ticketing system to track service requests and record troubleshooting steps. This experience has strengthened my problem-solving abilities, technical communication, and organizational skills while supporting the reliable operation of campus technology systems.",
-  "Skills": [],
-  "SkillsText": "Technical Skills: 3-Phase Systems • Breadboard Design • Circuit Troubleshooting • Function Generator & Oscilloscope Operation • Soldering • Asset Data Organization <br><br> Computer Software / Tools: PSCAD • Excel • Jira • AutoCAD • Microsoft Office • Microsoft Entra • Multisim • MATLAB • QTSPIM • LTSpice • GitHub • CLion • Arduino IDE • Visio <br><br> Programming Languages: Python • C++ • MATLAB • Arduino • MIPS",
-  "Resume": "student-resume.pdf"  
-},
-"Project1": {
+  "About": {
+    "Name": "Jainaba Jallow",
+    "Currently": "Electrical Engineering Student & Engineering Intern",
+    "Headshot": "IMG_5643.jpeg",
+    "Thumbnail": "electric-gear-logo-template-illustration-thunder-and-gear-logo-design-icon-free-vector.jpg",
+    "AboutText": "I am an Electrical Engineering student at Seattle Pacific University with a strong interest in power systems, electrical infrastructure, and applied engineering design. My academic work has focused on circuit analysis, electronics, electricity and magnetism, embedded systems, and power systems, where I have developed a solid foundation in three-phase systems and electrical system behavior. This summer I joined the Port of Seattle at Sea-Tac Airport as an electrical engineering intern on the power track, where I verify electrical assets in the field, update drawings, and build power system models. Beyond the classroom, I serve as chair of the IEEE student chapter at SPU and enjoy hands-on projects, from designing and building a PCB power supply to developing microcontroller-based devices. I also have experience with engineering tools such as PSCAD, EasyPower, AutoCAD, Altium Designer, and Excel for system analysis and technical documentation. My long-term goal is to contribute to improving electrical infrastructure and expanding reliable access to electricity in communities where energy systems are still developing."
+  },
+  "Contact": {
+    "EMail": "jallowj@spu.edu",
+    "Phone": "(206) 423-2890",
+    "Portfolio": "https://jaynab43.github.io/index.html",
+    "LinkedIn": "https://www.linkedin.com/in/jainaba-jallow/",
+    "GitHub": "https://github.com/jaynab43"
+  },
+  "Experience": {
+    "ExperienceText": "Growing up in The Gambia, I witnessed firsthand how unreliable electricity and limited infrastructure affect households, businesses, and opportunities for development. Those experiences shaped my long-term goal of becoming an electrical engineer who can contribute to improving electrical infrastructure and expanding reliable access to energy in developing communities. I believe that through education, technical training, and collaboration with other engineers, I can help develop practical and sustainable electrical solutions that support long-term growth.",
+    "School": "Seattle Pacific University",
+    "Major": "Electrical Engineering",
+    "Graduation": "June 2027",
+    "EducationText": "My studies focus on developing a strong foundation in electrical systems, circuit analysis, electronics, and power engineering. Through coursework in subjects such as circuit analysis, electricity and magnetism, logic systems, electronics, embedded systems, and power systems, I am building the analytical and technical skills required to understand and design complex electrical systems. The program emphasizes both theoretical knowledge and practical problem-solving, and I am minoring in Appropriate and Sustainable Engineering. I am a 2026–2027 Bauman Scholar and maintain a 4.0 GPA at SPU.",
+    "Employment": "Seattle Pacific University",
+    "Role": "IT Support Technician",
+    "EmploymentText": "As an IT Support Technician at Seattle Pacific University, I assist students, faculty, and staff with troubleshooting technical issues related to computers, audiovisual systems, and classroom technology. This role requires a structured approach to diagnosing problems, identifying possible causes, and implementing effective solutions. I also maintain documentation through a ticketing system to track service requests and record troubleshooting steps. This experience has strengthened my problem-solving abilities, technical communication, and organizational skills while supporting the reliable operation of campus technology systems.",
+    "Skills": [],
+    "SkillsText": "Technical Skills: 3-Phase Systems • Power Flow & Short-Circuit Analysis • PCB Design • Breadboard Design • Circuit Troubleshooting • Function Generator & Oscilloscope Operation • Soldering • Asset Data Organization <br><br> Computer Software / Tools: PSCAD • EasyPower • AutoCAD • Bluebeam Revu • Altium Designer • Excel • Jira • Microsoft Office • Microsoft Entra • Multisim • MATLAB • QTSPIM • LTSpice • Wokwi • MIT App Inventor • GitHub • CLion • Arduino IDE • Visio <br><br> Programming Languages: Python • MicroPython / CircuitPython • C++ • MATLAB • Arduino • MIPS",
+    "Resume": "student-resume.pdf",
+    "Employment2": "Port of Seattle – Sea-Tac Airport",
+    "Role2": "Electrical Engineering Intern, AVFI Electrical & Telecommunications Engineering (Power Track) (June 2026 – Present)",
+    "EmploymentText2": "As an intern in the Port of Seattle's AVFI Electrical and Telecommunications Engineering department, I support senior electrical engineers with facility record documentation, asset management, and field verification. I verified more than 150 electrical assets and 20 communication assets across the airport, comparing field conditions against Maximo records and correcting discrepancies. In AutoCAD, I digitized one-line drawings and updated drawings using project as-builts. I also developed an EasyPower model of Baggage Claim 15 & 16 by reconciling field conditions, design drawings, and equipment nameplate data, supporting power flow, short-circuit, and arc-flash studies."
+  },
+  "Project1": {
     "Title": "Bandpass Sallen Key Filter",
     "Desc": "Designed and implemented an active bandpass filter to detect a 17 kHz infrared signal while rejecting nearby frequencies. The circuit used three cascaded Sallen–Key stages to create a sixth-order filter with high frequency selectivity. The design was first modeled and verified in LTspice and then built and tested on a breadboard using a frequency response analyzer to confirm the expected behavior. This project demonstrates practical analog filter design, circuit simulation, and hardware validation.",
     "GitHubRepo": "",
     "MainImage": "P1Main.png",
-    "DetailImages": ["P1Detail1.jpeg","P1Detail2.jpeg","P1Detail3.png"]
+    "DetailImages": [
+      "P1Detail1.jpeg",
+      "P1Detail2.jpeg",
+      "P1Detail3.png"
+    ]
   },
- "Project2": {
+  "Project2": {
     "Title": "Power System Reliability and Interconnection Study",
     "Desc": "This project simulated a real-world utility planning study for Seattle City Light to evaluate the potential grid impact of connecting a new large-scale industrial manufacturing facility. Steady-state load flow analysis was performed using PSCAD to model three-phase sources and examine how generator voltage magnitudes and phase angles influence active and reactive power exchange within the system. MATLAB scripts were developed to analyze and compare the numerical performance and convergence behavior of the Gauss–Seidel and Newton–Raphson algorithms for a three-bus transmission network. Comprehensive fault analysis, including three-phase, single-line-to-ground (SLG), and double-line-to-ground (DLG) faults, was conducted to determine fault current contributions and verify that equipment ratings remained within safe operating limits.",
     "GitHubRepo": "",
     "MainImage": "P2Main.png",
-    "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png"]
+    "DetailImages": [
+      "P2Detail1.png",
+      "P2Detail2.png",
+      "P2Detail3.png"
+    ]
   },
   "Project3": {
-    "Title": "",
-    "Desc": "",
+    "Title": "Dual Adjustable Power Supply with Multiple Output Levels (Electronics I)",
+    "Desc": "Designed, simulated, and built a PCB-based dual adjustable power supply that converts AC from a center-tapped transformer into multiple regulated DC outputs. The design uses a fused input, a full-wave bridge rectifier, and filter capacitors, followed by LM317 and LM337 regulators for adjustable ±1.5 to ±19 V rails, fixed +12 V, −12 V, and +5 V rails (uA7812, uA7912, uA7805), and an op-amp buffer for an isolated 0–10 V adjustable output. Each stage was verified in LTspice, the board layout was created in Altium Designer, and the prototype was assembled and tested. Simulation, theoretical, and measured results were compared with percentage-error calculations, and the project report includes a reflection on PCB design and trace-width analysis using IPC-2221.",
     "GitHubRepo": "",
-    "MainImage": "",
-    "DetailImages": []
+    "MainImage": "P3Main.png",
+    "DetailImages": [
+      "P3Detail1.png",
+      "P3Detail2.png",
+      "P3Detail3.png"
+    ]
   },
   "Project4": {
-    "Title": "",
-    "Desc": "",
+    "Title": "Chill Pill Dispenser (Junior Design)",
+    "Desc": "Team project to design and build a tabletop automatic medication dispenser for people who struggle to keep a consistent medication schedule. The device uses Raspberry Pi Picos, stepper-driven pill canisters sized for three different capsule sizes, a UI with LCD, buttons and a Bluetooth app made in MIT App Inventor, an RTC with a dispense log, audio and visual alerts, and fingerprint sensors with a solenoid lock and trap doors for security. The team created CAD models for the canisters, hinges, and housing, built Wokwi circuit diagrams, and ran a formal test plan against the specifications. Results: correct dispensed amounts in all accuracy tests, 95% jam-free dispensing over 20 rounds, a total cost of $238.55, three security features, and an average alarm level of 54.4 dB at 50 ft. Troubleshooting included adding a flyback diode to stop solenoid buzzing, reworking the canister gear design to stop jamming, using one Pico per fingerprint sensor, and adding an MCP23017 I/O expander.",
     "GitHubRepo": "",
-    "MainImage": "",
-    "DetailImages": []
+    "MainImage": "P4Main.png",
+    "DetailImages": [
+      "P4Detail1.png",
+      "P4Detail2.png",
+      "P4Detail3.png"
+    ]
+  },
+  "Project5": {
+    "Title": "Deaf Alarm Clock (Microcontroller Course)",
+    "Desc": "Team project to build an alarm clock for deaf and hard-of-hearing users that replaces sound with visual and physical cues, using a Raspberry Pi Pico. Features include an 8x32 LED matrix that flashes with accelerating speed when an alarm or timer fires, an LCD 1602 display, button controls with debounce, and a sunrise mode that gradually brightens the matrix using an LDR to adapt to room light. My contribution was the Bluetooth-to-phone vibration link: an HC-05 module connected to the Pico over UART sends alert signals to a custom Android app built in MIT App Inventor, so the phone vibrates the moment an alarm or timer triggers. All five project specifications were met.",
+    "GitHubRepo": "",
+    "MainImage": "P5Main.png",
+    "DetailImages": [
+      "P5Detail1.png",
+      "P5Detail2.png",
+      "P5Detail3.png"
+    ]
   }
 }

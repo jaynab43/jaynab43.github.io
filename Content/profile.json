@@ -31,25 +31,18 @@
   },
   "Project1": {
     "Title": "Chill Pill Dispenser (Engineering Design) – Spring 2026",
-    "Desc": "Team project to design and build a tabletop automatic medication dispenser for people who struggle to keep a consistent medication schedule. The device uses Raspberry Pi Picos, stepper-driven pill canisters sized for three different capsule sizes, a UI with LCD, buttons and a Bluetooth app made in MIT App Inventor, an RTC with a dispense log, audio and visual alerts, and fingerprint sensors with a solenoid lock and trap doors for security. The team created CAD models for the canisters, hinges, and housing, built Wokwi circuit diagrams, and ran a formal test plan against the specifications. Results: correct dispensed amounts in all accuracy tests, 95% jam-free dispensing over 20 rounds, a total cost of $238.55, three security features, and an average alarm level of 54.4 dB at 50 ft. Troubleshooting included adding a flyback diode to stop solenoid buzzing, reworking the canister gear design to stop jamming, using one Pico per fingerprint sensor, and adding an MCP23017 I/O expander.",
+    "Desc": "Team project to design and build a tabletop automatic medication dispenser for people who struggle to keep a consistent medication schedule. I was responsible for the electronics and power supply for the device, except for the fingerprint and security subsystem, which a teammate handled. My work covered the Raspberry Pi Pico controller, the stepper motors that rotate the pill canisters, the LCD and buttons through an MCP23017 I/O expander, the real-time clock with a dispense log, audio and visual alerts, the Bluetooth link, the power supply feeding it all, and the MIT App Inventor mobile app that controls the device, which I built. The team also created CAD models for the canisters and housing, built Wokwi circuit diagrams, and ran a formal test plan against the specifications. Team results: correct dispensed amounts in all accuracy tests, 95% jam-free dispensing over 20 rounds, a total cost of $238.55, three security features, and an average alarm level of 54.4 dB at 50 ft.",
     "GitHubRepo": "",
-    "MainImage": "P4Main.png",
-    "DetailImages": [
-      "P4Detail1.png",
-      "P4Detail2.png",
-      "P4Detail3.png"
-    ]
+    "MainImage": "",
+    "DetailImages": [],
+    "Video": "https://www.youtube.com/watch?v=PSEozjAsYNk"
   },
   "Project2": {
     "Title": "Deaf Alarm Clock (Microcontroller Design) – Spring 2026",
     "Desc": "Team project to build an alarm clock for deaf and hard-of-hearing users that replaces sound with visual and physical cues, using a Raspberry Pi Pico. Features include an 8x32 LED matrix that flashes with accelerating speed when an alarm or timer fires, an LCD 1602 display, button controls with debounce, and a sunrise mode that gradually brightens the matrix using an LDR to adapt to room light. My contribution was the Bluetooth-to-phone vibration link: an HC-05 module connected to the Pico over UART sends alert signals to a custom Android app built in MIT App Inventor, so the phone vibrates the moment an alarm or timer triggers. All five project specifications were met.",
     "GitHubRepo": "",
-    "MainImage": "P5Main.png",
-    "DetailImages": [
-      "P5Detail1.png",
-      "P5Detail2.png",
-      "P5Detail3.png"
-    ]
+    "MainImage": "IMG_6460.jpeg",
+    "DetailImages": []
   },
   "Project3": {
     "Title": "Dual Adjustable Power Supply with Multiple Output Levels (Electronics I) – Spring 2026",

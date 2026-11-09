@@ -33,7 +33,7 @@
     "Title": "Chill Pill Dispenser (Engineering Design) – Spring 2026",
     "Desc": "Team project to design and build a tabletop automatic medication dispenser for people who struggle to keep a consistent medication schedule. I was responsible for the electronics and power supply for the device, except for the fingerprint and security subsystem, which a teammate handled. My work covered the Raspberry Pi Pico controller, the stepper motors that rotate the pill canisters, the LCD and buttons through an MCP23017 I/O expander, the real-time clock with a dispense log, audio and visual alerts, the Bluetooth link, the power supply feeding it all, and the MIT App Inventor mobile app that controls the device, which I built. The team also created CAD models for the canisters and housing, built Wokwi circuit diagrams, and ran a formal test plan against the specifications. Team results: correct dispensed amounts in all accuracy tests, 95% jam-free dispensing over 20 rounds, a total cost of $238.55, three security features, and an average alarm level of 54.4 dB at 50 ft.",
     "GitHubRepo": "",
-    "MainImage": "",
+    "MainImage": "IMG_6507.jpeg",
     "DetailImages": [],
     "Video": "https://www.youtube.com/watch?v=PSEozjAsYNk"
   },

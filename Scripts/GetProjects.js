@@ -20,49 +20,22 @@ function updateHTML(configData) {
   for (let n = 1; n <= 5; n++) {
     const proj = configData["Project" + n];
     if (proj && proj.Title) {
-      const img = document.querySelector("#pfProject" + n + "Img");
-      if (proj.Video) {
-        img.style.display = "none";
-        img.parentNode.insertBefore(buildVideo(proj.Video), img.nextSibling);
-      } else {
-        img.src = "Content/".concat(proj.MainImage);
-      }
+      document.querySelector("#pfProject" + n + "Img").src = "Content/".concat(proj.MainImage);
       document.querySelector("#pfProject" + n + "Title").innerHTML = proj.Title;
       document.querySelector("#pfProject" + n + "Desc").innerHTML = proj.Desc;
       document.querySelector("#pfProject" + n + "Repo").href = proj.GitHubRepo;
       if (!proj.GitHubRepo) {
         document.querySelector("#pfProject" + n + "Repo").style.display = "none";
       }
-      if (proj.DetailImages.length < 1) {
+      if (proj.Video) {
+        document.querySelector("#openProject" + n).textContent = "Watch Video";
+      } else if (proj.DetailImages.length < 1) {
         document.querySelector("#openProject" + n).style.display = "none";
       }
     } else {
       document.querySelector("#project" + n).style.display = "none";
     }
   }
-}
-
-// builds a video element from a YouTube link, Google Drive link, or a video file in Content
-function buildVideo(url) {
-  if (/\.(mp4|webm|mov)$/i.test(url)) {
-    const v = document.createElement("video");
-    v.src = url.startsWith("http") ? url : "Content/".concat(url);
-    v.controls = true;
-    v.style.width = "100%";
-    return v;
-  }
-  let src = url;
-  let m = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]+)/);
-  if (m) src = "https://www.youtube.com/embed/" + m[1];
-  m = url.match(/drive\.google\.com\/file\/d\/([\w-]+)/);
-  if (m) src = "https://drive.google.com/file/d/" + m[1] + "/preview";
-  const f = document.createElement("iframe");
-  f.src = src;
-  f.allowFullscreen = true;
-  f.style.width = "100%";
-  f.style.aspectRatio = "16 / 9";
-  f.style.border = "0";
-  return f;
 }
 
 function addImages(imgs) {
@@ -106,6 +79,11 @@ function showImages(n) {
 
 for (let n = 1; n <= 5; n++) {
   document.querySelector("#openProject" + n).onclick = () => {
+    const proj = configData["Project" + n];
+    if (proj.Video) {
+      window.open(proj.Video, "_blank");
+      return;
+    }
     addImages(configData["Project" + n].DetailImages);
     document.querySelector("#modalPage").style.display = "block";
     slideIdx = 1;

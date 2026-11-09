@@ -55,11 +55,11 @@
     "Title": "Dual Adjustable Power Supply with Multiple Output Levels (Electronics I)",
     "Desc": "Designed, simulated, and built a PCB-based dual adjustable power supply that converts AC from a center-tapped transformer into multiple regulated DC outputs. The design uses a fused input, a full-wave bridge rectifier, and filter capacitors, followed by LM317 and LM337 regulators for adjustable ±1.5 to ±19 V rails, fixed +12 V, −12 V, and +5 V rails (uA7812, uA7912, uA7805), and an op-amp buffer for an isolated 0–10 V adjustable output. Each stage was verified in LTspice, the board layout was created in Altium Designer, and the prototype was assembled and tested. Simulation, theoretical, and measured results were compared with percentage-error calculations, and the project report includes a reflection on PCB design and trace-width analysis using IPC-2221.",
     "GitHubRepo": "",
-    "MainImage": "P3Main.png",
+    "MainImage": "IMG_6503 (1).jpeg",
     "DetailImages": [
-      "P3Detail1.png",
-      "P3Detail2.png",
-      "P3Detail3.png"
+      "IMG_6461.jpeg",
+      "IMG_6463 (1).jpeg",
+      "IMG_6466 (1).jpeg"
     ]
   },
   "Project4": {
